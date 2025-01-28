@@ -42,7 +42,7 @@ export const App: React.FC = () => {
   const handleRadiusChange = (value: string) => {
     const num = parseInt(value, 10);
     setRadius(
-      Math.max(isNaN(num) ? 0 : num, 0)
+      isNaN(num) ? 0 : num
     );
   };
 
