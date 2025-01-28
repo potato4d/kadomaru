@@ -93,7 +93,7 @@ export const App: React.FC = () => {
     <div className="mx-auto max-w-screen-lg min-h-screen p-8">
       <h1 className="text-2xl font-bold mb-4 text-center flex items-center justify-center gap-1">
         <span>画像角丸くん</span>
-        <img src="/favicon.png" width="28" height="28" alt="" />
+        <img src="/kadomaru/favicon.png" width="28" height="28" alt="" />
       </h1>
       <p className="mb-8 text-center text-gray-500 text-sm">サーバーへの画像データ保存なし・ブラウザで完結する画像角丸化ツール</p>
 
